@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Forms Demo </h1>
+    <form action="/Users/neelh/Downloads/Software/">
+        <!--Action defines where the form input will go-->
+        <p>
+            <label for="username">Enter the Username: </label>
+            <input type="text" placeholder="Enter Name" id="username">
+        </p>
+        <p>
+            <label for="password">Enter the Password: </label>
+            <input type="Password" placeholder="Password" id="password">
+            <!--Label for == is connected to id in input if they are the same name-->
+        </p>
+        <p>
+            <label for="color">Enter the color: </label>
+            <input type="Color" id="color">
+        </p>
+        <p>
+            <button>Submit</button>
+            <!--Default button action is to submit, if inside the form. Buttons outside the form will not submit.-->
+        </p>
+        <p>
+            <button type="button"> This Button Won't do anything</button>
+        </p>
+    </form>
+    <hr>
+    <h2>Hijacking Google & YouTube</h2>
+    <p>
+    <form action="https://www.google.com/search?">Search Google
+        <input type="text" name="q">
+        <button>Submit</button>
+    </form>
+    </p>
+    <p>
+    <form action="https://www.youtube.com/results?">Search YouTube
+        <input type="text" name="search_query">
+        <button>Submit</button>
+    </form>
+    </p>
+    <hr>
+    <h2>More Buttons</h2>
+    <p>
+    <form action="">
+        <input type="checkbox" name = "agree to" id = "agree">
+        <label for="agree">I agree to the terms and conditions</label>
+    </p>
+    </form>
+    <form action="Ex_Files_SQL_EssT/">  
+    <p>
+        <b>Please Select the Size: </b>
+        <input type="radio" name = "size" id = "XS"> <!--Every button has the same name = "size" since all the buttons are for the same value, hence only one can be selected.-->
+        <label for="XS">XS:</label>
+        <input type="radio" name = "size" id = "M">
+        <label for="M">M:</label>
+        <input type="radio" name = "size" id = "L">
+        <label for="L">L:</label>
+        <button>Submit</button>
+    </p>
+    </form>
+    <form action="Ex_Files_Get_Ready_Coding_Interview/">
+    <p>
+        <label for="meal">Select an Meal Type: </label>
+        <select name="meal" id="meal">
+            <option value="">Please Select a value from below</option>
+            <option value="Non-Veg">Non Vegeterian</option>
+            <option value="veg">Vegeterian</option>
+            <option value="Jain">Jain</option>
+        </select>
+        
+    </p>
+    <p>
+        <label for="Spiciness">How Spicy Do you want it?</label>
+        <input type="range" id = "Spiciness" min = "1" max = "100" value = "76" name = "spciy">
+    </p>
+    <p>
+        <label for="requests">Any Special Requests: </label>
+        <textarea id = "requests" rows  = "20" cols="40" name = "Requests?" placeholder="Mention your requests here..."></textarea>
+    </p>
+    <button>Submit</button>
+</form>
+   
+
+</body>
+</html>
