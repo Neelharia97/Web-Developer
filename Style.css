@@ -1,17 +1,22 @@
 h1{
+    text-align: center;
+    letter-spacing: 200;
+    font-size : 50px;
+    font-weight: 350;
     background-color: khaki;
+    font-family: Futura,monospace,sans-serif;
+  
     color : rgb(95, 15, 28);
-}
+} 
 h2{
     color:royalblue;
     background-color: khaki;
+
+} 
+p 
+{
+    line-height: 2;
 }
-button{
-    background-color: cyan;
-    color : magenta;
-}
-p{
-    color : olive;
-    background:  orange;
-    text-shadow: orange;
+div{
+    line-height:  2;
 }

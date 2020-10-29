@@ -1,0 +1,27 @@
+*{
+    background-color: lightblue;
+}
+
+
+h1,h2{
+    background-color:#0096c7;
+    text-align: center;
+}
+
+#register{
+    color : white;
+    background-color: gray;
+}
+
+a {
+    color : blue;
+}
+footer #register{
+    
+    background-color : #023e8a;
+    color: #a8dadc;
+}
+div > email{
+    font-size:  20px;
+    color: brown;
+}
